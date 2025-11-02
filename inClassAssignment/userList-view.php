@@ -35,9 +35,9 @@
                     <tr>
                         <td><?php echo $users[$index]->userID ?></td>
                         <td><?php echo $users[$index]->username ?></td>
-                        <td><?php echo $users[$index]->lastName ?></td>
-                        <td><?php echo $users[$index]->firstName ?></td>
-                        <td><?php echo $users[$index]->password ?></td>
+                        <td><?php echo $users[$index]->lastname ?></td>
+                        <td><?php echo $users[$index]->firstname ?></td>
+                        <td><?php echo $users[$index]->passwd ?></td>
                         <td><?php echo $users[$index]->email ?></td>
                         <td><?php echo $users[$index]->urole ?></td>
                         <td><?php echo $users[$index]->lastModified ?></td>

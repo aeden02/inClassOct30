@@ -1,13 +1,13 @@
 <?php
     class User{
-        private $userID;
-        private $username;
-        private $lastname; 
-        private $firstname; 
-        private $passwd; 
-        private $email;
-        private $urole; 
-        private $lastModified; 
+        public $userID;
+        public $username;
+        public $lastname; 
+        public $firstname; 
+        public $passwd; 
+        public $email;
+        public $urole; 
+        public $lastModified; 
 
         public function load($row){
             $this->userID=$row['userID'];

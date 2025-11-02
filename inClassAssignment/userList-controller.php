@@ -1,6 +1,14 @@
 <?php
     require_once 'model/UserDAO.php';
 
+
+    function showErrors($debug){
+        if($debug==1){
+            ini_set('display_errors', 1);
+            ini_set('display_startup_errors', 1);
+            error_reporting(E_ALL);
+        }
+    }
     //************************
     //*  Contoller Template  *
     //************************
@@ -21,11 +29,12 @@
 
     }
  
-    function showErrors($debug){
-        if($debug==1){
-            ini_set('display_errors', 1);
-            ini_set('display_startup_errors', 1);
-            error_reporting(E_ALL);
-        }
-    }
+    // function showErrors($debug){
+    //     if($debug==1){
+    //         ini_set('display_errors', 1);
+    //         ini_set('display_startup_errors', 1);
+    //         error_reporting(E_ALL);
+    //     }
+    // }
+
 ?>
